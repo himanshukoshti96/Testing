@@ -1,0 +1,457 @@
+{
+  "id": "5c5c426d-4cf5-4e43-a46a-84a741e2f984",
+  "version": "2.0",
+  "name": "flipcard",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "a0bcd95f-709f-4538-aa53-e4560ae38d32",
+    "name": "flipkart ",
+    "commands": [{
+      "id": "59e7710e-4e79-4b28-a23e-e439aff20d0e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b50ee3e3-3e25-4574-a6f5-8eb6a33768aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5af4cad3-6191-4a27-90d4-bb4162123566",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1ch8e_:nth-child(1) .\\_2puWtW",
+      "targets": [
+        ["css=.\\_1ch8e_:nth-child(1) .\\_2puWtW", "css:finder"],
+        ["xpath=//img[@alt='Grocery']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b7396ed-f762-4806-8546-ea40f53615cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.wsejfv", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[4]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?ret=/grocery-supermart-store%3Fmarketplace%3DGROCERY%26fm%3Dneo%252Fmerchandising%26iid%3DM_cf98f998-dbef-4002-a80b-d85fc4d8680d_1_372UD5BXDFYS_MC.CBUR1Q46W5F1%26otracker%3Dhp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1%26otracker1%3Dhp_rich_navigation_PINNED_neo%252Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all%26cid%3DCBUR1Q46W5F1')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3becac44-cb58-46eb-9918-564a4702c41e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.wsejfv", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[4]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?ret=/grocery-supermart-store%3Fmarketplace%3DGROCERY%26fm%3Dneo%252Fmerchandising%26iid%3DM_cf98f998-dbef-4002-a80b-d85fc4d8680d_1_372UD5BXDFYS_MC.CBUR1Q46W5F1%26otracker%3Dhp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1%26otracker1%3Dhp_rich_navigation_PINNED_neo%252Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all%26cid%3DCBUR1Q46W5F1')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a73c115-beaf-4d8d-9b01-de7ed5a2baa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x9tVHU",
+      "targets": [
+        ["css=.x9tVHU", "css:finder"],
+        ["xpath=//body/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "403333a1-3072-4416-93e7-3daefcc7f4f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.F9\\+fd2",
+      "targets": [
+        ["css=.F9\\+fd2", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa860783-fbba-4257-bbb9-5d120838d0d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.W5mR4e",
+      "targets": [
+        ["css=.W5mR4e", "css:finder"],
+        ["xpath=//img[@alt='Flipkart']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b28925c0-56f8-47ce-aadc-5e86965d47bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.QqFHMw",
+      "targets": [
+        ["css=.QqFHMw", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Current Location')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6f34668-b032-4d17-8bf9-9a06b71d9076",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ayyRVk:nth-child(1)",
+      "targets": [
+        ["css=.ayyRVk:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div/form/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53583b37-a945-496f-b344-b0678ead178c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.QqFHMw",
+      "targets": [
+        ["css=.QqFHMw", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Current Location')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8a94212-7181-4cb0-9362-195afebf1c0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3ZeUN\\+",
+      "targets": [
+        ["css=.\\_3ZeUN\\+", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[5]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aac8983d-3928-4989-90cc-b6d5173b4f64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3ZeUN\\+",
+      "targets": [
+        ["css=.\\_3ZeUN\\+", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[5]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee5f3f05-1c00-417c-8b0f-3ca0f7b34031",
+      "comment": "",
+      "command": "click",
+      "target": "css=.XGZdnG:nth-child(1) .qstlfY",
+      "targets": [
+        ["css=.XGZdnG:nth-child(1) .qstlfY", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[5]/div/div/div[2]/div[2]/div/ul/li/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb2f0d39-0fa3-4d66-8677-cc2e4f6fa406",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Flights",
+      "targets": [
+        ["linkText=Flights", "linkText"],
+        ["css=.TSD49J:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Flights')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/travel/flights?otracker=nmenu_Flights')]", "xpath:href"],
+        ["xpath=//body/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e11c5e67-957f-4149-97b9-1d831fefc716",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Flights",
+      "targets": [
+        ["linkText=Flights", "linkText"],
+        ["css=.TSD49J:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Flights')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/travel/flights?otracker=nmenu_Flights')]", "xpath:href"],
+        ["xpath=//body/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e3497b5-8816-400d-a891-7169a5abab3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nEqBzi",
+      "targets": [
+        ["css=.nEqBzi", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25054454-77c5-4e32-9fa9-45f0532dd9da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mi",
+      "targets": [
+        ["linkText=Mi", "linkText"],
+        ["css=.wZsanD:nth-child(1) > .jBYtJt:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mi')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobiles/mi~brand/pr?sid=tyy,4io&otracker=nmenu_sub_Electronics_0_Mi')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a8ee4c9-e558-42af-84a3-ffa85f9d92b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nEqBzi",
+      "targets": [
+        ["css=.nEqBzi", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "141308f1-4daa-443f-b44b-0777c365ba12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Realme",
+      "targets": [
+        ["linkText=Realme", "linkText"],
+        ["css=.wZsanD:nth-child(1) > .jBYtJt:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Realme')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobiles/pr?sid=tyy%2C4io&p%5B%5D=facets.brand%255B%255D%3DRealme&otracker=nmenu_sub_Electronics_0_Realme')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Realme')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0d4924b-9b2d-4a1b-8709-265e20096cd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nEqBzi",
+      "targets": [
+        ["css=.nEqBzi", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c43a9eb-3e7a-46de-9c72-257a2339b564",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apple",
+      "targets": [
+        ["linkText=Apple", "linkText"],
+        ["css=.wZsanD:nth-child(1) > .jBYtJt:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Apple')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=apple+mobiles&sid=tyy%2C4io&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&as-pos=1&as-type=RECENT&suggestionId=apple+mobiles%7CMobiles&requestId=74513d15-9fcc-41ea-a7e0-16499e689ee3&as-backfill=on&otracker=nmenu_sub_Electronics_0_Apple')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Apple')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0efd0b8c-f9a3-4f3f-8e57-d7402653dd4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\-5qqlC:nth-child(13) .fxf7w6",
+      "targets": [
+        ["css=.\\-5qqlC:nth-child(13) .fxf7w6", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div/div/div/section[12]/div/div", "xpath:idRelative"],
+        ["xpath=//section[12]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "167ac9e2-1a39-4fbd-bab7-fb2e1f3fb427",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1053)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2207bcb4-67c5-4a12-9131-d33019daeaaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nEqBzi",
+      "targets": [
+        ["css=.nEqBzi", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddb016a0-41ba-4971-9783-50be283f2305",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=IQOO 3",
+      "targets": [
+        ["linkText=IQOO 3", "linkText"],
+        ["css=.wZsanD:nth-child(1) > .jBYtJt:nth-child(14)", "css:finder"],
+        ["xpath=//a[contains(text(),'IQOO 3')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div/a[14]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=iqoo&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&otracker=nmenu_sub_Electronics_0_IQOO%203')]", "xpath:href"],
+        ["xpath=//a[14]", "xpath:position"],
+        ["xpath=//a[contains(.,'IQOO 3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32bf1068-beeb-469c-aad3-a2e2a95ce98c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nEqBzi",
+      "targets": [
+        ["css=.nEqBzi", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'TVs & Appliances')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "500c7820-a66b-4322-9bf5-9e5823a42751",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fully Automatic Top Load",
+      "targets": [
+        ["linkText=Fully Automatic Top Load", "linkText"],
+        ["css=.wZsanD:nth-child(2) > .jBYtJt:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Fully Automatic Top Load')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home-kitchen/home-appliances/washing-machines/fully-automatic-top-load~function/pr?sid=j9e%2Cabm%2C8qx&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Fully%20Automatic%20Top%20Load')]", "xpath:href"],
+        ["xpath=//div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Fully Automatic Top Load')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd436b1a-c8e2-4e85-aa00-d2cbea49363c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TSD49J:nth-child(3)",
+      "targets": [
+        ["css=.TSD49J:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Men')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1994752-c4c0-468b-9798-47ca963692cc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.r2CdBx:nth-child(3) > .R0cyWM",
+      "targets": [
+        ["css=.r2CdBx:nth-child(3) > .R0cyWM", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home Appliances')])[2]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home-kitchen/home-appliances/pr?sid=j9e,abm&marketplace=FLIPKART')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c24e38f6-4e6c-4554-9cd6-2fa0c1fe217c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Casual Shirts",
+      "targets": [
+        ["linkText=Casual Shirts", "linkText"],
+        ["css=.wZsanD:nth-child(2) > .jBYtJt:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Casual Shirts')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div[2]/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/clothing-and-accessories/topwear/shirt/men-shirt/casual-shirt/pr?sid=clo,ash,axc,mmk,kp7&otracker=categorytree&otracker=nmenu_sub_Men_0_Casual%20Shirts')]", "xpath:href"],
+        ["xpath=//div[2]/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Casual Shirts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "437e08cb-64a7-421a-b066-5d10466a26d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nEqBzi",
+      "targets": [
+        ["css=.nEqBzi", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span[4]", "xpath:idRelative"],
+        ["xpath=//span[4]", "xpath:position"],
+        ["xpath=//span[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4109094-1857-4fba-a30e-6a5fe01f407d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Heels",
+      "targets": [
+        ["linkText=Heels", "linkText"],
+        ["css=.wZsanD:nth-child(3) > .jBYtJt:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Heels')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div[3]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/womens-footwear/heels/pr?sid=osp,iko,6q1&otracker=nmenu_sub_Women_0_Heels')]", "xpath:href"],
+        ["xpath=//div[3]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Heels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb49936b-35d9-4cd8-b5ae-848192960595",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nEqBzi",
+      "targets": [
+        ["css=.nEqBzi", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span[6]", "xpath:idRelative"],
+        ["xpath=//span[6]", "xpath:position"],
+        ["xpath=//span[contains(.,'Home & Furniture')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4a2e888-d3e3-4913-9649-db0168a2d582",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home Decor",
+      "targets": [
+        ["linkText=Home Decor", "linkText"],
+        ["css=.wZsanD:nth-child(4) > .jBYtJt:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home Decor')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home-decor/pr?sid=arb&marketplace=FLIPKART&otracker=nmenu_sub_Home%20%26%20Furniture_0_Home%20Decor')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home Decor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "78b85476-9ba7-46f5-90f2-c5551db8e5c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a0bcd95f-709f-4538-aa53-e4560ae38d32"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
